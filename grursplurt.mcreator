@@ -1,17 +1,35 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "PlaceholderItemDoNotAlter",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "placeholder_item_do_not_alter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/grursplurt/item/PlaceholderItemDoNotAlterItem.java",
+          "src/main/resources/assets/grursplurt/items/placeholder_item_do_not_alter.json",
+          "src/main/resources/assets/grursplurt/models/item/placeholder_item_do_not_alter.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.grursplurt.placeholder_item_do_not_alter": "MARP"
+    }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/grursplurt/GrursplurtMod.java",
+      "src/main/java/net/mcreator/grursplurt/init/GrursplurtModItems.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/grursplurt/GrursplurtMod.java"
     ]
   },
   "foldersRoot": {
